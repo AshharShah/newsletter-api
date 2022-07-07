@@ -20,8 +20,8 @@ app.post("/", function (req, res) {
   const client = require("@mailchimp/mailchimp_marketing");
 
   client.setConfig({
-    apiKey: "4f876319fd26eef538ef2fa18ffffd8d-us9",
-    server: "us9",
+    apiKey: "YOUR API KEY",
+    server: "SERVER",
   });
 
   console.log(firstName);
@@ -29,7 +29,7 @@ app.post("/", function (req, res) {
   console.log(email);
 
   const run = async () => {
-    const response = await client.lists.batchListMembers("614ec699dc", {
+    const response = await client.lists.batchListMembers("YOUR AUDIENCE ID", {
       members: [
         {
           email_address: email,
