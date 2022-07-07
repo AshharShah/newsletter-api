@@ -1,0 +1,28 @@
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.input-box{
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+}
+
+.container-fluid{
+    position: absolute;
+    text-align: center;
+    margin-top:10%;
+    background-color: rgb(250, 250, 203);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.btn{
+    margin-top: 10px;
+}
